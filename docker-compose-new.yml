@@ -1,8 +1,8 @@
 version: '1.0'
 services:
   plone-backend:
-    image: plone/plone-frontend:sha-3458b73
+    image: plone/plone-backend:nightly-20231202
     network_mode: "host"
   plone-frontend:
-    image: plone/plone-backend:nightly-20231202
+    image: plone/plone-frontend:sha-3458b73
     network_mode: "host"
